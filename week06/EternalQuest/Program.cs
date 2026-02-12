@@ -1,9 +1,9 @@
-using System;
+List<Shape> shapes = new List<Shape>();
+shapes.Add(new Square("Red", 4));
+shapes.Add(new Rectangle("Blue", 5, 2));
+shapes.Add(new Circle("Green", 3));
 
-class Program
+foreach (Shape shape in shapes)
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
-    }
+    Console.WriteLine($"{shape.GetColor()} area: {shape.GetArea()}");
 }
