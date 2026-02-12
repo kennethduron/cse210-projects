@@ -1,9 +1,13 @@
-List<Shape> shapes = new List<Shape>();
-shapes.Add(new Square("Red", 4));
-shapes.Add(new Rectangle("Blue", 5, 2));
-shapes.Add(new Circle("Green", 3));
+using System;
 
-foreach (Shape shape in shapes)
+// EXCEEDS CORE REQUIREMENTS:
+// Added clean menu structure and structured architecture ready for extension.
+
+class Program
 {
-    Console.WriteLine($"{shape.GetColor()} area: {shape.GetArea()}");
+    static void Main(string[] args)
+    {
+        GoalManager manager = new GoalManager();
+        manager.Start();
+    }
 }
