@@ -10,6 +10,7 @@ class Program
         while (playAgain == "yes")
         {
             int magicNumber = randomGenerator.Next(1, 101);
+            Console.WriteLine(magicNumber);
             int guess = -1;
             int guessCount = 0;
 
