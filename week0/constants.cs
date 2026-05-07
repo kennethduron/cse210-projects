@@ -1,0 +1,12 @@
+var number = 15.12;
+Console.WriteLine(number);
+number = 25.4;
+Console.WriteLine(number);
+int number2 = 10;
+Console.WriteLine("Variable value: " + number2);
+number2 = 35;
+Console.WriteLine(number2);
+const double PI = 3.1416;
+const string message = "Welcome to C# programming";
+Console.WriteLine(PI);
+Console.WriteLine(message);
